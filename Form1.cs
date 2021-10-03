@@ -43,6 +43,7 @@ namespace MyApp
             firstCustomControl1.BringToFront();
         }
 
+        // bring to front SecondCustomControl1
         private void button2_Click(object sender, EventArgs e)
         {
             SidePanel.Height = button2.Height;
