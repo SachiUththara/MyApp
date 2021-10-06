@@ -50,5 +50,33 @@ namespace MyApp
             SidePanel.Top = button2.Top;
             secondCustomControl1.BringToFront();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            SidePanel.Height = button3.Height;
+            SidePanel.Top = button3.Top;
+            thirdCustomControl1.BringToFront();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            SidePanel.Height = button4.Height;
+            SidePanel.Top = button4.Top;
+            fourthCustomControl1.BringToFront();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            SidePanel.Height = button5.Height;
+            SidePanel.Top = button5.Top;
+            fifthCustomControl1.BringToFront();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            SidePanel.Height = button6.Height;
+            SidePanel.Top = button6.Top;
+            sixthCustomControl1.BringToFront();
+        }
     }
 }
